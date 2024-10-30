@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               widget.title,
               style: TextStyle(
-                fontSize: MediaQuery.of(context).size.width * 0.03,
+                fontSize: MediaQuery.of(context).size.width * 0.02,
                 color: Colors.white,
               ),
             ),
@@ -210,7 +210,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Vista de cima de um deck - Foto: João Felipe / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -232,7 +232,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Vegetação do parque - Foto: João Felipe / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -254,7 +254,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Pessoas fazendo caminhadas - Foto: João Felipe / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -276,7 +276,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Reserva no meio da malha urbana - Foto: Enzo Verneque / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -298,7 +298,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Ginástica - Foto: Enzo Verneque / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -313,7 +313,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Parque infantil - Foto: Enzo Verneque / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -335,7 +335,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Quadra de esportes - Foto: Enzo Verneque / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -350,7 +350,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         " Ensaios fotográficos - Foto: Enzo Verneque / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -365,7 +365,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Text(
                         "Ensaios fotográficos - Foto: Enzo Verneque / 6º C",
-                        style: TextStyle(color: Colors.grey),
+                        style: TextStyle(color: Colors.blueGrey),
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
@@ -410,7 +410,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 const Text(
                   "Atendimentos no primeiro dia de atendimento no Hospital Público Veterinário do DF — Foto: TV Globo/Reprodução",
-                  style: TextStyle(color: Colors.grey),
+                  style: TextStyle(color: Colors.blueGrey),
                 ),
               ],
             ),
