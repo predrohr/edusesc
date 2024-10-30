@@ -42,28 +42,28 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
 
-    double iconSize = screenWidth * 0.10;
-
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 100,
+        toolbarHeight: 150,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(
-          widget.title,
-          style: TextStyle(
-            fontSize: MediaQuery.of(context).size.width * 0.03,
-          ),
+        title: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Text(
+              widget.title,
+              style: TextStyle(
+                fontSize: MediaQuery.of(context).size.width * 0.03,
+                color: Colors.white,
+              ),
+            ),
+            const SizedBox(height: 5), // Espaço entre o texto e a imagem
+            Image.asset(
+              "assets/images/edusesc.png",
+              height: 100, // Ajuste conforme necessário
+            ),
+          ],
         ),
         centerTitle: true,
-        actions: [
-          IconButton(
-            onPressed: () {},
-            icon: Image.asset(
-              "assets/images/edusesc.png",
-              height: iconSize,
-            ),
-          ),
-        ],
       ),
       body: Center(
         child: Padding(
@@ -318,7 +318,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
                         child: Text(
-                          "As crianças agradecem e ao passear pelo parque, encontram-se muitas famílias coma as crianças se divertindo nos parquinhos de areia.",
+                          "As crianças agradecem e ao passear pelo parque, encontram-se muitas famílias com a as crianças se divertindo nos parquinhos de areia.",
                           textAlign: TextAlign.center,
                         ),
                       ),
@@ -369,6 +369,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                       const Padding(
                         padding: EdgeInsets.only(top: 20),
+                        child: Text(
+                          "Muitos visitantes, segundo os funcionários, aproveitam os espaços do parque para fazer ensaios fotográficos de casamento, aniversários e outros.",
+                          textAlign: TextAlign.center,
+                        ),
                       ),
                     ],
                   ),
