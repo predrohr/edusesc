@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return Scaffold(
       appBar: AppBar(
-        toolbarHeight: 150,
+        toolbarHeight: 155,
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -52,14 +52,14 @@ class _MyHomePageState extends State<MyHomePage> {
             Text(
               widget.title,
               style: TextStyle(
-                fontSize: MediaQuery.of(context).size.width * 0.02,
+                fontSize: MediaQuery.of(context).size.width * 0.04,
                 color: Colors.white,
               ),
             ),
             const SizedBox(height: 5), // Espaço entre o texto e a imagem
             Image.asset(
               "assets/images/edusesc.png",
-              height: 100, // Ajuste conforme necessário
+              height: 70, // Ajuste conforme necessário
             ),
           ],
         ),
